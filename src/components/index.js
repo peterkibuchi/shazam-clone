@@ -1,25 +1,11 @@
-import Sidebar from './Sidebar';
-import Searchbar from './Searchbar';
-import SongCard from './SongCard';
-import TopPlay from './TopPlay';
-import ArtistCard from './ArtistCard';
-import DetailsHeader from './DetailsHeader';
-import SongBar from './SongBar';
-import RelatedSongs from './RelatedSongs';
-import MusicPlayer from './MusicPlayer';
-import Loader from './Loader';
-import Error from './Error';
-
-export {
-  TopPlay,
-  Sidebar,
-  SongCard,
-  Searchbar,
-  ArtistCard,
-  DetailsHeader,
-  SongBar,
-  RelatedSongs,
-  MusicPlayer,
-  Loader,
-  Error,
-};
+export { default as ArtistCard } from "./ArtistCard";
+export { default as DetailsHeader } from "./DetailsHeader";
+export { default as Error } from "./Error";
+export { default as Loader } from "./Loader";
+export { default as MusicPlayer } from "./MusicPlayer";
+export { default as RelatedSongs } from "./RelatedSongs";
+export { default as Searchbar } from "./Searchbar";
+export { default as Sidebar } from "./Sidebar";
+export { default as SongBar } from "./SongBar";
+export { default as SongCard } from "./SongCard";
+export { default as TopPlay } from "./TopPlay";
