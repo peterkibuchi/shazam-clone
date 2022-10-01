@@ -20,6 +20,7 @@
 ## Technologies Used
 
 - React
+- Redux
 - Tailwind
 - ViteJS
 
